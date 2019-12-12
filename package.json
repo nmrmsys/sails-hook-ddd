@@ -1,0 +1,35 @@
+{
+  "name": "sails-hook-ddd",
+  "version": "0.0.1",
+  "description": "Sails.js hook to use data-domain-driver",
+  "main": "index.js",
+  "sails": {
+    "isHook": true,
+    "hookName": "ddd"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmrmsys/sails-hook-ddd.git"
+  },
+  "keywords": [
+    "data-domain-driver",
+    "sails",
+    "hook",
+    "sails-hook"
+  ],
+  "author": "Masayoshi Nomura <nmrmsys@gmail.com> (http://github.com/nmrmsys)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmrmsys/sails-hook-ddd/issues"
+  },
+  "homepage": "https://github.com/nmrmsys/sails-hook-ddd#readme",
+  "dependencies": {
+    "data-domain-driver": "~0.2.0"
+  },
+  "devDependencies": {
+    "sails": "~1.2.3"
+  }
+}
