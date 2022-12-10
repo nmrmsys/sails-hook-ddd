@@ -30,6 +30,6 @@
     "data-domain-driver": "~0.2.0"
   },
   "devDependencies": {
-    "sails": "~1.2.3"
+    "sails": "~1.5.3"
   }
 }
